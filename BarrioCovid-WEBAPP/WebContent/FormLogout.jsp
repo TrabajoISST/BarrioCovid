@@ -1,4 +1,3 @@
-<form action = "FormLogoutServlet">
+<form action="FormLogoutServlet">
 	<button type="submit">Logout</button>
-
 </form>
