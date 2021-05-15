@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Index COVID</title>
+<meta charset="UTF-8">
+<title>BarrioCovid-WebApp</title>
+<link href="pedido.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h2>Bienvenido, por favor rellene los campos de registro de la aplicacion</h2>
-<form action="FormLoginServlet">
-        <input type="text" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="text" name = "rol" placeholder="rol">
-        <button type="submit">Login</button>
 
-</form>
+	<h1>BARRIO COVID</h1>
 
-<img src="foto.png" width="300" height = "300">
+	<img src="img/barrio.png" width="200" height="200">
+	
+	<h2>Acceso Compradores</h2>
+	<form action="ServletCompradores">
+		<button type="submit">Log in</button>
+	</form>
+	
+	<h2>Acceso Vendedores</h2>
+	<form action="ServletVendedores">
+		<button type="submit">Log in</button>
+	</form>
+	
+	<h2>Acceso Voluntarios</h2>
+	<form action="ServletVoluntarios">
+		<button type="submit">Log in</button>
+	</form>
+	
+	<h2>Registro Nuevos Usuarios</h2>
+	<form action="FormRegistroServlet">
+		<button type="submit">Sign in</button>
+	</form>
+	
 </body>
 </html>
