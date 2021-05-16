@@ -20,6 +20,11 @@ _Aplicación para la interaccion entre compradores y vendedores locales en situa
 - ca.crt
 - isst.jks
 
+
+### Conexión base de datos
+
+``` java -jar h2-1.4.197.jar ```
+
 ## Autores
 * Alberto Pascual Jimenez
 * Edwin Chuchón Alva
